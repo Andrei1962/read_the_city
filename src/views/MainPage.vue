@@ -1,20 +1,20 @@
 <template>
   <div class="home">
-    <TheHeader/>
-    <ListCards/>
+    <HeaderMain/>
+    <MainCards/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import TheHeader from '@/components/blocks/TheHeader.vue'
-import ListCards from '@/components/blocks/ListCards.vue'
+import HeaderMain from '@/components/blocks/HeaderMain.vue'
+import MainCards from '@/components/blocks/MainCards.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    TheHeader,
-    ListCards
+    HeaderMain,
+    MainCards
   },
   setup () {
   }

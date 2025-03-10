@@ -1,6 +1,6 @@
 <template>
   <div class="list">
-    <BookCard
+    <CardProduct
       v-for="(item, i) in dataBooks"
       :key="i"
       :title="item.name"
@@ -12,19 +12,19 @@
 
 <script>
 // import { ref } from 'vue'
-import BookCard from '@/components/elements/BookCard.vue'
+import CardProduct from '@/components/elements/CardProduct.vue'
 
 export default {
-  name: 'ListCards',
+  name: 'MainCards',
   components: {
-    BookCard
+    CardProduct
   },
   props: {
   },
   setup () {
     const dataBooks = ([
       {
-        name: 'Skyrim. История сщздания великой игры',
+        name: 'Skyrim. История создания великой игры',
         description: 'Франк Экстанази',
         image: require('@/assets/images/book_1.png')
       },
@@ -53,11 +53,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .list {
   display: flex;
-  gap: 10px;
+  gap: 26px;
   align-items: center;
   justify-content: center;
-  padding: 16px 0;
+  margin-top: 125px;
 }
 </style>

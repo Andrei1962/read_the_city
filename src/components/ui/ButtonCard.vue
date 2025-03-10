@@ -5,7 +5,7 @@
 <script>
 
 export default {
-  name: 'BaseButton',
+  name: 'ButtonCard',
   components: {
   },
   props: {
