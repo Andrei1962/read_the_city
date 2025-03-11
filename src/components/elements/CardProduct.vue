@@ -46,7 +46,7 @@ export default {
   width: 330px;
   height: 490px;
   border-radius: 10px;
-  border: 1px solid rgb(141, 79, 79);
+  box-shadow: 1px 1px 4px 0px #0000004D;
 }
 
 .image {
