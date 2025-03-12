@@ -59,6 +59,6 @@ export default {
   gap: 26px;
   align-items: center;
   justify-content: center;
-  margin-top: 125px;
+  height: calc(100vh - 60px);
 }
 </style>

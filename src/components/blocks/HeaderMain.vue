@@ -34,6 +34,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  padding: o 70px 0 70 px;
 }
 
 .phone {
@@ -42,13 +43,10 @@ export default {
   color: #ffffff;
   display: inline-block;
   text-decoration: none;
-  padding-right: 70px;
 }
 
 .logo {
   color: #ffffff;
-  padding-left: 70px;
-
 }
 
 </style>
